@@ -1,0 +1,17 @@
+CREATE TABLE Student (
+    Id UNIQUEIDENTIFIER PRIMARY KEY,
+    Name VARCHAR(255),
+    Gender INT,
+    DOB DATETIME,
+    ClassId INT FOREIGN KEY REFERENCES Class(Id)
+);
+
+CREATE TABLE Class (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Name VARCHAR(255),
+    CreatedDate DATETIME,
+    ModificationDate DATETIME
+);
+
+ALTER TABLE Student
+    ADD CONSTRAINT FK_Student_ClassId FOREIGN KEY (ClassId) REFERENCES Class (Id);
