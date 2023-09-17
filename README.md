@@ -3,24 +3,24 @@ This is a student file manager app where students can upload different files wit
 
 # How to run this app : 
 
-1. Download the zip file/ download winrar
+1. Download the zip file.
 
-2. Extract the file and copy "file_Management_System" folder
+2. Extract the file and copy "file_Management_System" folder.
 
-3. Paste inside root directory/ where you install xammp local disk C: drive D: drive E: paste: (for xampp/htdocs, 
+3. Paste the folder inside where you installed xammp and it's htdocs folder.(xampp/htdocs)
 
 4. Open PHPMyAdmin (http://localhost/phpmyadmin)
 
-5. Create a database with name db_sfms
+5. Create a database with name <b>db_sfms</b>
 
 6. Import db_sfms.sql file(given inside the zip package in SQL file folder)
 
-7.Run the script http://localhost/file_Management_System
+7. Run the app with the link : http://localhost/file_Management_System
 
 
 **LOGIN DETAILS** 
 
-Admin Login
+ # Admin Login
 
-username: admin
-password: admin
+_username: admin_
+ password: admin
